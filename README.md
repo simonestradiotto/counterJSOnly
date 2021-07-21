@@ -1,5 +1,7 @@
 # Counter app
 
+### Try it: https://counterappjs.netlify.app/
+
 This simple app allows you to keep a counter from 0 up to 999999.
 
 It's been created without any libraries or framework, so you don't have to install anything.
