@@ -1,7 +1,20 @@
-let plus = document.querySelector(".plus");
-let minus = document.querySelector(".minus");
+let container = document.querySelector(".counter_container");
+
+//Creating the three buttons and the counter
+container.insertAdjacentHTML(
+  "beforebegin",
+  '<button type="reset" class="reset"> <ion-icon name="refresh-outline"></ion-icon> </button>'
+);
+
+container.insertAdjacentHTML(
+  "afterbegin",
+  '<button type="button" class="minus inactive" disabled>-</button> <div class="counter">0</div> <button type="button" class="plus">+</button>'
+);
+
 let counter = document.querySelector(".counter");
 let reset = document.querySelector(".reset");
+let plus = document.querySelector(".plus");
+let minus = document.querySelector(".minus");
 
 function plusOne() {
   if (Number(counter.innerHTML) >= 999999) {
