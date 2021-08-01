@@ -8,6 +8,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Arcade Normal";
+  touch-action: manipulation;
 }
 html {
   height: 100%;
